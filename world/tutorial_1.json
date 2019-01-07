@@ -1,0 +1,23 @@
+{
+  "cutoffs": {
+    "1": {
+      "time": 300,
+      "guesses": 50
+    },
+    "2": {
+      "time": 150,
+      "guesses": 25
+    },
+    "3": {
+      "time": 90,
+      "guesses": 12
+    }
+  },
+  "level": [
+    {
+      "size": 4,
+      "set": "all"
+    }
+  ],
+  "level_id": 1
+}

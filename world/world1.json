@@ -1,0 +1,48 @@
+{
+  "name": "Grassy Hill World",
+  "mmr_suggest": "0-250",
+  "map": {
+    "tiles": [
+      {
+        "name": "Simple Beginnings",
+        "prereq": [],
+        "lasts_until": -1,
+        "description": "Starting off slow",
+        "placement": {
+          "type": "standard",
+          "positionx": "-6.6",
+          "positiony": "-2.422",
+          "positionz": "-7",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        },
+        "level": "tutorial1"
+      }
+    ],
+    "level": {
+      "tutorial1": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 4,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 300,
+            "guesses": 50
+          },
+          "2": {
+            "time": 150,
+            "guesses": 25
+          },
+          "3": {
+            "time": 90,
+            "guesses": 12
+          }
+        }
+      }
+    }
+  }
+}

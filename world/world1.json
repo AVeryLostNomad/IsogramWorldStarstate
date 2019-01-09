@@ -5,7 +5,9 @@
     "tiles": [
       {
         "name": "Simple Beginnings",
-        "prereq": [],
+        "unlocks": [
+          "tutorial2"
+        ],
         "lasts_until": -1,
         "description": "Starting off slow",
         "placement": {
@@ -13,10 +15,31 @@
           "positionx": "-6.6",
           "positiony": "-2.422",
           "positionz": "-7",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
           "color_new": "TileAvailable",
           "color_done": "TileCompleted"
         },
         "level": "tutorial1"
+      },
+      {
+        "name": "Keep It Going",
+        "unlocks": [],
+        "lasts_until": -1,
+        "description": "Let's try something a little harder",
+        "placement": {
+          "type": "standard",
+          "positionx": "-4.049272",
+          "positiony": "-2.422",
+          "positionz": "-8.544342",
+          "rotationx": "0",
+          "rotationy": "-23.62",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        },
+        "level": "tutorial2"
       }
     ],
     "level": {

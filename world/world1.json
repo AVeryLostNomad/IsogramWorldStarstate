@@ -1,1 +1,436 @@
-{"name":"Grassy Hills World","mmr_suggest":"0-250","map":{"level":{"tutorial1":{"whole_words":0,"phases":[{"size":3,"set":"any"}],"cutoffs":{"1":{"time":300,"guesses":50,"multi":0.65},"2":{"time":150,"guesses":25,"multi":0.85},"3":{"time":90,"guesses":12,"multi":1}}},"tutorial2":{"whole_words":0,"phases":[{"size":4,"set":"any"}],"cutoffs":{"1":{"time":200,"guesses":45,"multi":0.75},"2":{"time":130,"guesses":30,"multi":0.9},"3":{"time":90,"guesses":20,"multi":1.2}}},"tutorial3":{"whole_words":0,"phases":[{"size":4,"set":"any"}],"cutoffs":{"1":{"time":200,"guesses":45,"multi":0.75},"2":{"time":130,"guesses":30,"multi":0.9},"3":{"time":90,"guesses":20,"multi":1.2}}},"tutorial4":{"whole_words":0,"phases":[{"size":5,"set":"any"}],"cutoffs":{"1":{"time":800,"guesses":45,"multi":0.8},"2":{"time":600,"guesses":30,"multi":1},"3":{"time":300,"guesses":20,"multi":1.2}}},"tutorial6":{"whole_words":0,"phases":[{"size":3,"set":"any"},{"size":3,"set":"any"}],"cutoffs":{"1":{"time":800,"guesses":45,"multi":0.8},"2":{"time":600,"guesses":30,"multi":1},"3":{"time":300,"guesses":20,"multi":1.2}}},"tutorial7":{"whole_words":0,"phases":[{"size":3,"set":"any"},{"size":4,"set":"any"}],"cutoffs":{"1":{"time":700,"guesses":45,"multi":1},"2":{"time":450,"guesses":30,"multi":1.3},"3":{"time":250,"guesses":20,"multi":1.4}}},"tutorial8":{"whole_words":0,"phases":[{"size":4,"set":"any"},{"size":4,"set":"any"}],"cutoffs":{"1":{"time":700,"guesses":45,"multi":1.1},"2":{"time":450,"guesses":30,"multi":1.4},"3":{"time":250,"guesses":20,"multi":1.5}}},"tutorial9":{"whole_words":0,"phases":[{"size":6,"set":"any"}],"cutoffs":{"1":{"time":600,"guesses":45,"multi":1.2},"2":{"time":450,"guesses":30,"multi":1.3},"3":{"time":300,"guesses":25,"multi":1.7}}},"tutorial10":{"whole_words":0,"phases":[{"size":6,"set":"any"}],"cutoffs":{"1":{"time":500,"guesses":45,"multi":1.3},"2":{"time":400,"guesses":30,"multi":1.4},"3":{"time":250,"guesses":25,"multi":1.8}}}},"tiles":[{"name":"Simple Beginnings","level":"tutorial1","unlocks":["tutorial2"],"lasts_until":{},"description":"Starting off slow","placement":{"type":"standard","positionx":"-6.6","positiony":"-2.422","positionz":"-7","rotationx":"0","rotationy":"35.09","rotationz":"0","color_new":"TileAvailable","color_done":"TileCompleted"}},{"name":"Keep It Going","level":"tutorial2","unlocks":["tutorial3"],"lasts_until":{},"description":"Let's try something a little harder","placement":{"type":"standard","positionx":"-4.049273","positiony":"-2.422","positionz":"-8.544342","rotationx":"0","rotationy":"35.09","rotationz":"0","color_new":"TileAvailable","color_done":"TileCompleted"}},{"name":"Branching Off","level":"tutorial3","unlocks":["tutorial4"],"lasts_until":{},"description":"Think smarter\\nnot harder","placement":{"type":"standard","positionx":"-1.99","positiony":"-2.422","positionz":"-10.61","rotationx":"0","rotationy":"35.09","rotationz":"0","color_new":"TileAvailable","color_done":"TileCompleted"}},{"name":"The Rocky Path","level":"tutorial4","unlocks":["tutorial6"],"lasts_until":{},"description":"Ramping up","placement":{"type":"standard","positionx":"-3.93","positiony":"-2.422","positionz":"-12.42","rotationx":"0","rotationy":"35.09","rotationz":"0","color_new":"TileAvailable","color_done":"TileCompleted"}},{"name":"A Little Further","level":"tutorial6","unlocks":["tutorial7"],"lasts_until":{},"description":"Two's only a\\nlittle harder","placement":{"type":"standard","positionx":"-6.23","positiony":"-2.422","positionz":"-11.84","rotationx":"0","rotationy":"35.09","rotationz":"0","color_new":"TileAvailable","color_done":"TileCompleted"}},{"name":"I Could Turn Back","level":"tutorial7","unlocks":["tutorial8"],"lasts_until":{},"description":"Two Paths, Again","placement":{"type":"standard","positionx":"-8.64","positiony":"-2.422","positionz":"-12.3","rotationx":"0","rotationy":"35.09","rotationz":"0","color_new":"TileAvailable","color_done":"TileCompleted"}},{"name":"I Will Go On","level":"tutorial8","unlocks":["tutorial9"],"lasts_until":{},"description":"You can do it!","placement":{"type":"standard","positionx":"-6.47","positiony":"-2.422","positionz":"-14.74","rotationx":"0","rotationy":"35.09","rotationz":"0","color_new":"TileAvailable","color_done":"TileCompleted"}},{"name":"Narrowly Upwards","level":"tutorial9","unlocks":["tutorial10"],"lasts_until":{},"description":"Back to a single word","placement":{"type":"standard","positionx":"-6.83","positiony":"-2.422","positionz":"-16.99","rotationx":"0","rotationy":"35.09","rotationz":"0","color_new":"TileAvailable","color_done":"TileCompleted"}},{"name":"With Flying Colors","level":"tutorial10","unlocks":["tutorial11"],"lasts_until":{},"description":"Don't Stop Now!","placement":{"type":"standard","positionx":"-8.01","positiony":"-2.422","positionz":"-18.67","rotationx":"0","rotationy":"35.09","rotationz":"0","color_new":"TileAvailable","color_done":"TileCompleted"}}]}}
+{
+  "name": "Grassy Hills World",
+  "mmr_suggest": "0-250",
+  "map": {
+    "level": {
+      "tutorial1": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 3,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 300,
+            "guesses": 50,
+            "multi": 0.65
+          },
+          "2": {
+            "time": 150,
+            "guesses": 25,
+            "multi": 0.85
+          },
+          "3": {
+            "time": 90,
+            "guesses": 12,
+            "multi": 1
+          }
+        }
+      },
+      "tutorial2": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 4,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 200,
+            "guesses": 45,
+            "multi": 0.75
+          },
+          "2": {
+            "time": 130,
+            "guesses": 30,
+            "multi": 0.9
+          },
+          "3": {
+            "time": 90,
+            "guesses": 20,
+            "multi": 1.2
+          }
+        }
+      },
+      "tutorial3": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 4,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 200,
+            "guesses": 45,
+            "multi": 0.75
+          },
+          "2": {
+            "time": 130,
+            "guesses": 30,
+            "multi": 0.9
+          },
+          "3": {
+            "time": 90,
+            "guesses": 20,
+            "multi": 1.2
+          }
+        }
+      },
+      "tutorial4": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 5,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 800,
+            "guesses": 45,
+            "multi": 0.8
+          },
+          "2": {
+            "time": 600,
+            "guesses": 30,
+            "multi": 1
+          },
+          "3": {
+            "time": 300,
+            "guesses": 20,
+            "multi": 1.2
+          }
+        }
+      },
+      "tutorial6": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 3,
+            "set": "any"
+          },
+          {
+            "size": 3,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 800,
+            "guesses": 45,
+            "multi": 0.8
+          },
+          "2": {
+            "time": 600,
+            "guesses": 30,
+            "multi": 1
+          },
+          "3": {
+            "time": 300,
+            "guesses": 20,
+            "multi": 1.2
+          }
+        }
+      },
+      "tutorial7": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 3,
+            "set": "any"
+          },
+          {
+            "size": 4,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 700,
+            "guesses": 45,
+            "multi": 1
+          },
+          "2": {
+            "time": 450,
+            "guesses": 30,
+            "multi": 1.3
+          },
+          "3": {
+            "time": 250,
+            "guesses": 20,
+            "multi": 1.4
+          }
+        }
+      },
+      "tutorial8": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 4,
+            "set": "any"
+          },
+          {
+            "size": 4,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 700,
+            "guesses": 45,
+            "multi": 1.1
+          },
+          "2": {
+            "time": 450,
+            "guesses": 30,
+            "multi": 1.4
+          },
+          "3": {
+            "time": 250,
+            "guesses": 20,
+            "multi": 1.5
+          }
+        }
+      },
+      "tutorial9": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 6,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 600,
+            "guesses": 45,
+            "multi": 1.2
+          },
+          "2": {
+            "time": 450,
+            "guesses": 30,
+            "multi": 1.3
+          },
+          "3": {
+            "time": 300,
+            "guesses": 25,
+            "multi": 1.7
+          }
+        }
+      },
+      "tutorial10": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 6,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 500,
+            "guesses": 45,
+            "multi": 1.3
+          },
+          "2": {
+            "time": 400,
+            "guesses": 30,
+            "multi": 1.4
+          },
+          "3": {
+            "time": 250,
+            "guesses": 25,
+            "multi": 1.8
+          }
+        }
+      }
+    },
+    "tiles": [
+      {
+        "name": "Simple Beginnings",
+        "level": "tutorial1",
+        "unlocks": [
+          "tutorial2"
+        ],
+        "lasts_until": -1,
+        "description": "Starting off slow",
+        "placement": {
+          "type": "standard",
+          "positionx": "-6.6",
+          "positiony": "-2.422",
+          "positionz": "-7",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Keep It Going",
+        "level": "tutorial2",
+        "unlocks": [
+          "tutorial3"
+        ],
+        "lasts_until": -1,
+        "description": "Let's try something a little harder",
+        "placement": {
+          "type": "standard",
+          "positionx": "-4.049273",
+          "positiony": "-2.422",
+          "positionz": "-8.544342",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Branching Off",
+        "level": "tutorial3",
+        "unlocks": [
+          "tutorial4"
+        ],
+        "lasts_until": -1,
+        "description": "Think smarter\\nnot harder",
+        "placement": {
+          "type": "standard",
+          "positionx": "-1.99",
+          "positiony": "-2.422",
+          "positionz": "-10.61",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "The Rocky Path",
+        "level": "tutorial4",
+        "unlocks": [
+          "tutorial6"
+        ],
+        "lasts_until": -1,
+        "description": "Ramping up",
+        "placement": {
+          "type": "standard",
+          "positionx": "-3.93",
+          "positiony": "-2.422",
+          "positionz": "-12.42",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "A Little Further",
+        "level": "tutorial6",
+        "unlocks": [
+          "tutorial7"
+        ],
+        "lasts_until": -1,
+        "description": "Two's only a\\nlittle harder",
+        "placement": {
+          "type": "standard",
+          "positionx": "-6.23",
+          "positiony": "-2.422",
+          "positionz": "-11.84",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "I Could Turn Back",
+        "level": "tutorial7",
+        "unlocks": [
+          "tutorial8"
+        ],
+        "lasts_until": -1,
+        "description": "Two Paths, Again",
+        "placement": {
+          "type": "standard",
+          "positionx": "-8.64",
+          "positiony": "-2.422",
+          "positionz": "-12.3",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "I Will Go On",
+        "level": "tutorial8",
+        "unlocks": [
+          "tutorial9"
+        ],
+        "lasts_until": -1,
+        "description": "You can do it!",
+        "placement": {
+          "type": "standard",
+          "positionx": "-6.47",
+          "positiony": "-2.422",
+          "positionz": "-14.74",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Narrowly Upwards",
+        "level": "tutorial9",
+        "unlocks": [
+          "tutorial10"
+        ],
+        "lasts_until": -1,
+        "description": "Back to a single word",
+        "placement": {
+          "type": "standard",
+          "positionx": "-6.83",
+          "positiony": "-2.422",
+          "positionz": "-16.99",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "With Flying Colors",
+        "level": "tutorial10",
+        "unlocks": [
+          "tutorial11"
+        ],
+        "lasts_until": -1,
+        "description": "Don't Stop Now!",
+        "placement": {
+          "type": "standard",
+          "positionx": "-8.01",
+          "positiony": "-2.422",
+          "positionz": "-18.67",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      }
+    ]
+  }
+}

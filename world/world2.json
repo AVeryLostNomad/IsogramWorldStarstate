@@ -1,0 +1,1658 @@
+{
+  "name": "Icy Island World",
+  "mmr_suggest": "250-750",
+  "map": {
+    "level": {
+      "ice1": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 5,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 300,
+            "guesses": 45,
+            "multi": 0.65
+          },
+          "2": {
+            "time": 150,
+            "guesses": 25,
+            "multi": 0.85
+          },
+          "3": {
+            "time": 90,
+            "guesses": 12,
+            "multi": 1
+          }
+        }
+      },
+      "ice2": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 5,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 280,
+            "guesses": 45,
+            "multi": 0.65
+          },
+          "2": {
+            "time": 130,
+            "guesses": 25,
+            "multi": 0.85
+          },
+          "3": {
+            "time": 70,
+            "guesses": 12,
+            "multi": 1
+          }
+        }
+      },
+      "ice3": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 6,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 280,
+            "guesses": 45,
+            "multi": 0.65
+          },
+          "2": {
+            "time": 130,
+            "guesses": 25,
+            "multi": 0.85
+          },
+          "3": {
+            "time": 70,
+            "guesses": 12,
+            "multi": 1
+          }
+        }
+      },
+      "ice4": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 6,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 280,
+            "guesses": 45,
+            "multi": 0.65
+          },
+          "2": {
+            "time": 130,
+            "guesses": 25,
+            "multi": 0.85
+          },
+          "3": {
+            "time": 70,
+            "guesses": 12,
+            "multi": 1
+          }
+        }
+      },
+      "ice5": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 7,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 180,
+            "guesses": 45,
+            "multi": 2.5
+          },
+          "2": {
+            "time": 179,
+            "guesses": 45,
+            "multi": 2.5
+          },
+          "3": {
+            "time": 177,
+            "guesses": 45,
+            "multi": 2.5
+          }
+        }
+      },
+      "ice7": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 5,
+            "set": "any"
+          },
+          {
+            "size": 5,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 450,
+            "guesses": 45,
+            "multi": 0.65
+          },
+          "2": {
+            "time": 300,
+            "guesses": 30,
+            "multi": 0.85
+          },
+          "3": {
+            "time": 250,
+            "guesses": 25,
+            "multi": 1
+          }
+        }
+      },
+      "ice6": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 3,
+            "set": "any"
+          },
+          {
+            "size": 6,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 300,
+            "guesses": 45,
+            "multi": 1
+          },
+          "2": {
+            "time": 220,
+            "guesses": 45,
+            "multi": 1.3
+          },
+          "3": {
+            "time": 180,
+            "guesses": 45,
+            "multi": 1.5
+          }
+        }
+      },
+      "ice8": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 3,
+            "set": "any"
+          },
+          {
+            "size": 7,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 350,
+            "guesses": 45,
+            "multi": 1.3
+          },
+          "2": {
+            "time": 270,
+            "guesses": 45,
+            "multi": 1.5
+          },
+          "3": {
+            "time": 220,
+            "guesses": 45,
+            "multi": 1.75
+          }
+        }
+      },
+      "ice9": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 4,
+            "set": "any"
+          },
+          {
+            "size": 7,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 360,
+            "guesses": 45,
+            "multi": 1.4
+          },
+          "2": {
+            "time": 280,
+            "guesses": 45,
+            "multi": 1.65
+          },
+          "3": {
+            "time": 230,
+            "guesses": 45,
+            "multi": 1.95
+          }
+        }
+      },
+      "ice10": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 4,
+            "set": "any"
+          },
+          {
+            "size": 7,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 350,
+            "guesses": 45,
+            "multi": 1.4
+          },
+          "2": {
+            "time": 270,
+            "guesses": 45,
+            "multi": 1.65
+          },
+          "3": {
+            "time": 220,
+            "guesses": 45,
+            "multi": 1.95
+          }
+        }
+      },
+      "ice11": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 4,
+            "set": "any"
+          },
+          {
+            "size": 7,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 350,
+            "guesses": 45,
+            "multi": 1.65
+          },
+          "2": {
+            "time": 270,
+            "guesses": 45,
+            "multi": 1.75
+          },
+          "3": {
+            "time": 220,
+            "guesses": 45,
+            "multi": 2
+          }
+        }
+      },
+      "ice12": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 5,
+            "set": "any"
+          },
+          {
+            "size": 7,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 600,
+            "guesses": 45,
+            "multi": 2.2
+          },
+          "2": {
+            "time": 400,
+            "guesses": 45,
+            "multi": 2.4
+          },
+          "3": {
+            "time": 300,
+            "guesses": 45,
+            "multi": 2.6
+          }
+        }
+      },
+      "ice13": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 5,
+            "set": "any"
+          },
+          {
+            "size": 7,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 600,
+            "guesses": 45,
+            "multi": 2.2
+          },
+          "2": {
+            "time": 400,
+            "guesses": 45,
+            "multi": 2.4
+          },
+          "3": {
+            "time": 300,
+            "guesses": 45,
+            "multi": 2.6
+          }
+        }
+      },
+      "ice14": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 5,
+            "set": "any"
+          },
+          {
+            "size": 7,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 600,
+            "guesses": 45,
+            "multi": 2.2
+          },
+          "2": {
+            "time": 400,
+            "guesses": 45,
+            "multi": 2.4
+          },
+          "3": {
+            "time": 300,
+            "guesses": 45,
+            "multi": 2.6
+          }
+        }
+      },
+      "ice15": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 6,
+            "set": "any"
+          },
+          {
+            "size": 7,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 630,
+            "guesses": 45,
+            "multi": 2.3
+          },
+          "2": {
+            "time": 500,
+            "guesses": 45,
+            "multi": 2.7
+          },
+          "3": {
+            "time": 450,
+            "guesses": 45,
+            "multi": 3
+          }
+        }
+      },
+      "ice16": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 6,
+            "set": "any"
+          },
+          {
+            "size": 7,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 600,
+            "guesses": 45,
+            "multi": 2.5
+          },
+          "2": {
+            "time": 450,
+            "guesses": 45,
+            "multi": 2.8
+          },
+          "3": {
+            "time": 375,
+            "guesses": 45,
+            "multi": 3.1
+          }
+        }
+      },
+      "ice17": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 8,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 400,
+            "guesses": 45,
+            "multi": 2.5
+          },
+          "2": {
+            "time": 300,
+            "guesses": 45,
+            "multi": 2.8
+          },
+          "3": {
+            "time": 200,
+            "guesses": 45,
+            "multi": 3.1
+          }
+        }
+      },
+      "ice18": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 6,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 450,
+            "guesses": 45,
+            "multi": 0.65
+          },
+          "2": {
+            "time": 300,
+            "guesses": 30,
+            "multi": 0.85
+          },
+          "3": {
+            "time": 250,
+            "guesses": 25,
+            "multi": 1
+          }
+        }
+      },
+      "ice19": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 6,
+            "set": "any"
+          },
+          {
+            "size": 3,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 450,
+            "guesses": 45,
+            "multi": 0.65
+          },
+          "2": {
+            "time": 300,
+            "guesses": 30,
+            "multi": 0.85
+          },
+          "3": {
+            "time": 250,
+            "guesses": 25,
+            "multi": 1
+          }
+        }
+      },
+      "ice20": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 3,
+            "set": "any"
+          },
+          {
+            "size": 3,
+            "set": "any"
+          },
+          {
+            "size": 3,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 450,
+            "guesses": 45,
+            "multi": 1.35
+          },
+          "2": {
+            "time": 300,
+            "guesses": 30,
+            "multi": 1.6
+          },
+          "3": {
+            "time": 250,
+            "guesses": 25,
+            "multi": 1.75
+          }
+        }
+      },
+      "ice21": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 4,
+            "set": "any"
+          },
+          {
+            "size": 4,
+            "set": "any"
+          },
+          {
+            "size": 4,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 300,
+            "guesses": 45,
+            "multi": 1.35
+          },
+          "2": {
+            "time": 200,
+            "guesses": 30,
+            "multi": 1.6
+          },
+          "3": {
+            "time": 90,
+            "guesses": 25,
+            "multi": 1.75
+          }
+        }
+      },
+      "ice22": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 5,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 300,
+            "guesses": 45,
+            "multi": 1
+          },
+          "2": {
+            "time": 200,
+            "guesses": 30,
+            "multi": 1
+          },
+          "3": {
+            "time": 90,
+            "guesses": 25,
+            "multi": 1
+          }
+        }
+      },
+      "ice23": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 5,
+            "set": "any"
+          },
+          {
+            "size": 5,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 200,
+            "guesses": 45,
+            "multi": 1
+          },
+          "2": {
+            "time": 180,
+            "guesses": 30,
+            "multi": 1
+          },
+          "3": {
+            "time": 120,
+            "guesses": 25,
+            "multi": 1
+          }
+        }
+      },
+      "ice24": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 5,
+            "set": "any"
+          },
+          {
+            "size": 6,
+            "set": "any"
+          },
+          {
+            "size": 5,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 300,
+            "guesses": 60,
+            "multi": 2
+          },
+          "2": {
+            "time": 250,
+            "guesses": 45,
+            "multi": 3
+          },
+          "3": {
+            "time": 180,
+            "guesses": 30,
+            "multi": 6
+          }
+        }
+      },
+      "ice25": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 8,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 400,
+            "guesses": 45,
+            "multi": 1.2
+          },
+          "2": {
+            "time": 300,
+            "guesses": 30,
+            "multi": 1.3
+          },
+          "3": {
+            "time": 250,
+            "guesses": 25,
+            "multi": 1.6
+          }
+        }
+      },
+      "ice26": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 7,
+            "set": "any"
+          },
+          {
+            "size": 5,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 500,
+            "guesses": 45,
+            "multi": 1.4
+          },
+          "2": {
+            "time": 450,
+            "guesses": 30,
+            "multi": 1.7
+          },
+          "3": {
+            "time": 300,
+            "guesses": 25,
+            "multi": 2.1
+          }
+        }
+      },
+      "ice27": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 5,
+            "set": "any"
+          },
+          {
+            "size": 5,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 400,
+            "guesses": 45,
+            "multi": 1.4
+          },
+          "2": {
+            "time": 300,
+            "guesses": 30,
+            "multi": 1.7
+          },
+          "3": {
+            "time": 220,
+            "guesses": 25,
+            "multi": 2.1
+          }
+        }
+      },
+      "ice28": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 3,
+            "set": "any"
+          },
+          {
+            "size": 3,
+            "set": "any"
+          },
+          {
+            "size": 3,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 400,
+            "guesses": 45,
+            "multi": 1.7
+          },
+          "2": {
+            "time": 300,
+            "guesses": 30,
+            "multi": 1.8
+          },
+          "3": {
+            "time": 220,
+            "guesses": 25,
+            "multi": 2.3
+          }
+        }
+      },
+      "ice29": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 3,
+            "set": "any"
+          },
+          {
+            "size": 3,
+            "set": "any"
+          },
+          {
+            "size": 3,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 380,
+            "guesses": 45,
+            "multi": 1.7
+          },
+          "2": {
+            "time": 280,
+            "guesses": 30,
+            "multi": 1.8
+          },
+          "3": {
+            "time": 200,
+            "guesses": 25,
+            "multi": 2.3
+          }
+        }
+      },
+      "ice30": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 3,
+            "set": "any"
+          },
+          {
+            "size": 3,
+            "set": "any"
+          },
+          {
+            "size": 3,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 380,
+            "guesses": 45,
+            "multi": 1.7
+          },
+          "2": {
+            "time": 280,
+            "guesses": 30,
+            "multi": 1.8
+          },
+          "3": {
+            "time": 200,
+            "guesses": 25,
+            "multi": 2.3
+          }
+        }
+      },
+      "ice31": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 3,
+            "set": "any"
+          },
+          {
+            "size": 3,
+            "set": "any"
+          },
+          {
+            "size": 3,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 360,
+            "guesses": 45,
+            "multi": 1.7
+          },
+          "2": {
+            "time": 260,
+            "guesses": 30,
+            "multi": 1.8
+          },
+          "3": {
+            "time": 180,
+            "guesses": 25,
+            "multi": 2.3
+          }
+        }
+      },
+      "ice32": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 3,
+            "set": "any"
+          },
+          {
+            "size": 3,
+            "set": "any"
+          },
+          {
+            "size": 3,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 360,
+            "guesses": 45,
+            "multi": 1.7
+          },
+          "2": {
+            "time": 260,
+            "guesses": 30,
+            "multi": 1.8
+          },
+          "3": {
+            "time": 180,
+            "guesses": 25,
+            "multi": 2.3
+          }
+        }
+      },
+      "ice34": {
+        "whole_words": 0,
+        "phases": [
+          {
+            "size": 4,
+            "set": "any"
+          },
+          {
+            "size": 4,
+            "set": "any"
+          },
+          {
+            "size": 4,
+            "set": "any"
+          }
+        ],
+        "cutoffs": {
+          "1": {
+            "time": 360,
+            "guesses": 45,
+            "multi": 1.7
+          },
+          "2": {
+            "time": 260,
+            "guesses": 30,
+            "multi": 1.8
+          },
+          "3": {
+            "time": 180,
+            "guesses": 25,
+            "multi": 2.3
+          }
+        }
+      }
+    },
+    "tiles": [
+      {
+        "name": "Up the Beach",
+        "level": "ice1",
+        "unlocks": [
+          "ice2"
+        ],
+        "lasts_until": -1,
+        "description": "Ease you into it",
+        "placement": {
+          "type": "standard",
+          "positionx": "-28.12",
+          "positiony": "-2.422",
+          "positionz": "-73.92",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Up the Beach 2",
+        "level": "ice2",
+        "unlocks": [
+          "ice3"
+        ],
+        "lasts_until": -1,
+        "description": "Ease you into it",
+        "placement": {
+          "type": "standard",
+          "positionx": "-30.27",
+          "positiony": "-2.422",
+          "positionz": "-72.41",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Up the Beach 3",
+        "level": "ice3",
+        "unlocks": [
+          "ice4"
+        ],
+        "lasts_until": -1,
+        "description": "Ease you into it",
+        "placement": {
+          "type": "standard",
+          "positionx": "-32.45",
+          "positiony": "-2.422",
+          "positionz": "-70.25",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Up the Beach 4",
+        "level": "ice4",
+        "unlocks": [
+          "ice5",
+          "ice7"
+        ],
+        "lasts_until": -1,
+        "description": "Ease you into it",
+        "placement": {
+          "type": "standard",
+          "positionx": "-34.89",
+          "positiony": "-2.422",
+          "positionz": "-67.67",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Stick to the Shore",
+        "level": "ice5",
+        "unlocks": [
+          "ice6"
+        ],
+        "lasts_until": -1,
+        "description": "The harder path",
+        "placement": {
+          "type": "standard",
+          "positionx": "-38.29",
+          "positiony": "-2.422",
+          "positionz": "-67.72",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Head to Camp",
+        "level": "ice7",
+        "unlocks": [
+          "ice18"
+        ],
+        "lasts_until": -1,
+        "description": "The easier path",
+        "placement": {
+          "type": "standard",
+          "positionx": "-35.27",
+          "positiony": "-2.422",
+          "positionz": "-64.48",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "I'm Commited",
+        "level": "ice6",
+        "unlocks": [
+          "ice8"
+        ],
+        "lasts_until": -1,
+        "description": "Keep Going",
+        "placement": {
+          "type": "standard",
+          "positionx": "-42.14",
+          "positiony": "-2.422",
+          "positionz": "-68.42",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Long, Hard 1",
+        "level": "ice8",
+        "unlocks": [
+          "ice9"
+        ],
+        "lasts_until": -1,
+        "description": "This'll be tough",
+        "placement": {
+          "type": "standard",
+          "positionx": "-46.69",
+          "positiony": "-2.422",
+          "positionz": "-67.96",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Long, Hard 2",
+        "level": "ice9",
+        "unlocks": [
+          "ice10"
+        ],
+        "lasts_until": -1,
+        "description": "This'll be tough",
+        "placement": {
+          "type": "standard",
+          "positionx": "-50.81",
+          "positiony": "-2.422",
+          "positionz": "-67.57",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Long, Hard 3",
+        "level": "ice10",
+        "unlocks": [
+          "ice11"
+        ],
+        "lasts_until": -1,
+        "description": "This'll be tough",
+        "placement": {
+          "type": "standard",
+          "positionx": "-52.83",
+          "positiony": "-2.422",
+          "positionz": "-65.36",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Long, Hard 4",
+        "level": "ice11",
+        "unlocks": [
+          "ice12"
+        ],
+        "lasts_until": -1,
+        "description": "This'll be tough",
+        "placement": {
+          "type": "standard",
+          "positionx": "-56.6",
+          "positiony": "-2.422",
+          "positionz": "-64.81",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Long, Hard 5",
+        "level": "ice12",
+        "unlocks": [
+          "ice13"
+        ],
+        "lasts_until": -1,
+        "description": "This'll be tough",
+        "placement": {
+          "type": "standard",
+          "positionx": "-58.82",
+          "positiony": "-2.422",
+          "positionz": "-61.02",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Long, Hard 6",
+        "level": "ice13",
+        "unlocks": [
+          "ice14"
+        ],
+        "lasts_until": -1,
+        "description": "This'll be tough",
+        "placement": {
+          "type": "standard",
+          "positionx": "-60.37",
+          "positiony": "-2.422",
+          "positionz": "-58.04",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Long, Hard 7",
+        "level": "ice14",
+        "unlocks": [
+          "ice15"
+        ],
+        "lasts_until": -1,
+        "description": "This'll be tough",
+        "placement": {
+          "type": "standard",
+          "positionx": "-63.97",
+          "positiony": "-2.422",
+          "positionz": "-52.94",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Long, Hard 8",
+        "level": "ice15",
+        "unlocks": [
+          "ice16"
+        ],
+        "lasts_until": -1,
+        "description": "This'll be tough",
+        "placement": {
+          "type": "standard",
+          "positionx": "-63.16",
+          "positiony": "-2.422",
+          "positionz": "-47.69",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Long, Hard 9",
+        "level": "ice16",
+        "unlocks": [
+          "ice17"
+        ],
+        "lasts_until": -1,
+        "description": "This'll be tough",
+        "placement": {
+          "type": "standard",
+          "positionx": "-67.81",
+          "positiony": "-2.422",
+          "positionz": "-45.76",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Too Cold to Continue",
+        "level": "ice17",
+        "unlocks": [],
+        "lasts_until": -1,
+        "description": "A hard wrapup",
+        "placement": {
+          "type": "standard",
+          "positionx": "-72.12",
+          "positiony": "-2.422",
+          "positionz": "-43.97",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Closer Now",
+        "level": "ice18",
+        "unlocks": [
+          "ice19"
+        ],
+        "lasts_until": -1,
+        "description": "Challenging",
+        "placement": {
+          "type": "standard",
+          "positionx": "-35.43",
+          "positiony": "-2.422",
+          "positionz": "-61.04",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Almost Upon It",
+        "level": "ice19",
+        "unlocks": [
+          "ice20"
+        ],
+        "lasts_until": -1,
+        "description": "Challenging",
+        "placement": {
+          "type": "standard",
+          "positionx": "-33.77",
+          "positiony": "-2.422",
+          "positionz": "-58.68",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Fire in Sight",
+        "level": "ice20",
+        "unlocks": [
+          "ice21"
+        ],
+        "lasts_until": -1,
+        "description": "Rapid-fire",
+        "placement": {
+          "type": "standard",
+          "positionx": "-34.77",
+          "positiony": "-2.422",
+          "positionz": "-55.36",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Hear the Embers",
+        "level": "ice21",
+        "unlocks": [
+          "ice22"
+        ],
+        "lasts_until": -1,
+        "description": "Harder, faster",
+        "placement": {
+          "type": "standard",
+          "positionx": "-34.1",
+          "positiony": "-2.422",
+          "positionz": "-52.67",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Campside",
+        "level": "ice22",
+        "unlocks": [
+          "ice23",
+          "ice25"
+        ],
+        "lasts_until": -1,
+        "description": "Relax",
+        "placement": {
+          "type": "standard",
+          "positionx": "-33.37",
+          "positiony": "-2.422",
+          "positionz": "-49.6",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Restless",
+        "level": "ice23",
+        "unlocks": [
+          "ice24"
+        ],
+        "lasts_until": -1,
+        "description": "Challenge Yourself",
+        "placement": {
+          "type": "standard",
+          "positionx": "-30.72",
+          "positiony": "-2.422",
+          "positionz": "-49.65",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Super Challenge",
+        "level": "ice24",
+        "unlocks": [],
+        "lasts_until": -1,
+        "description": "This is hard",
+        "placement": {
+          "type": "standard",
+          "positionx": "-27.62",
+          "positiony": "-2.422",
+          "positionz": "-48.3",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Press On",
+        "level": "ice25",
+        "unlocks": [
+          "ice26"
+        ],
+        "lasts_until": -1,
+        "description": "Less Relaxing",
+        "placement": {
+          "type": "standard",
+          "positionx": "-32.96",
+          "positiony": "-2.422",
+          "positionz": "-46.57",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "'Round the Bend",
+        "level": "ice26",
+        "unlocks": [
+          "ice27"
+        ],
+        "lasts_until": -1,
+        "description": "Less Relaxing",
+        "placement": {
+          "type": "standard",
+          "positionx": "-32.75",
+          "positiony": "-2.422",
+          "positionz": "-42.44",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Get Ready to Swim",
+        "level": "ice27",
+        "unlocks": [
+          "ice28"
+        ],
+        "lasts_until": -1,
+        "description": "We're Going In",
+        "placement": {
+          "type": "standard",
+          "positionx": "-29.34",
+          "positiony": "-2.422",
+          "positionz": "-39.25",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Ford the River",
+        "level": "ice28",
+        "unlocks": [
+          "ice29"
+        ],
+        "lasts_until": -1,
+        "description": "You can make it!",
+        "placement": {
+          "type": "standard",
+          "positionx": "-25.76",
+          "positiony": "-2.422",
+          "positionz": "-40.78",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Ford the River 1",
+        "level": "ice29",
+        "unlocks": [
+          "ice30"
+        ],
+        "lasts_until": -1,
+        "description": "You can make it!",
+        "placement": {
+          "type": "standard",
+          "positionx": "-23.37",
+          "positiony": "-2.422",
+          "positionz": "-39.53",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Ford the River 2",
+        "level": "ice30",
+        "unlocks": [
+          "ice31"
+        ],
+        "lasts_until": -1,
+        "description": "You can make it!",
+        "placement": {
+          "type": "standard",
+          "positionx": "-21.31",
+          "positiony": "-2.422",
+          "positionz": "-42.44",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Ford the River 3",
+        "level": "ice31",
+        "unlocks": [
+          "ice32"
+        ],
+        "lasts_until": -1,
+        "description": "You can make it!",
+        "placement": {
+          "type": "standard",
+          "positionx": "-18.29",
+          "positiony": "-2.422",
+          "positionz": "-42.21",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Ford the River 4",
+        "level": "ice32",
+        "unlocks": [
+          "ice34"
+        ],
+        "lasts_until": -1,
+        "description": "You can make it!",
+        "placement": {
+          "type": "standard",
+          "positionx": "-16.29",
+          "positiony": "-2.422",
+          "positionz": "-44.53",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      },
+      {
+        "name": "Made It!",
+        "level": "ice34",
+        "unlocks": [
+          "ice35"
+        ],
+        "lasts_until": -1,
+        "description": "You did it!",
+        "placement": {
+          "type": "standard",
+          "positionx": "-13.17",
+          "positiony": "-2.422",
+          "positionz": "-44.66",
+          "rotationx": "0",
+          "rotationy": "35.09",
+          "rotationz": "0",
+          "color_new": "TileAvailable",
+          "color_done": "TileCompleted"
+        }
+      }
+    ]
+  }
+}
